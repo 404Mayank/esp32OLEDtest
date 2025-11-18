@@ -19,7 +19,7 @@ void setup() {
   display.setTextSize(2);
   display.setTextColor(SSD1306_WHITE);
   display.setCursor(0, 0);
-  display.println("PATWARI:");
+  display.println("circle:");
   display.drawCircle(64, 32, 22, SSD1306_WHITE); 
   display.display();
 }
